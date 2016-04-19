@@ -1,0 +1,18 @@
+<package>
+  <name>ardrone_python</name>
+  <version>0.0.0</version>
+  <description>ardrone_python</description>
+
+  <author>Nikolas Engelhard</author>
+  <maintainer email="me@alexander.computer">Alexander Koumis</maintainer>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/ardrone_joystick</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>ardrone_autonomy</build_depend>
+  <build_depend>rospy</build_depend>
+
+  <run_depend>ardrone_autonomy</run_depend>
+  <run_depend>rospy</run_depend>
+</package>
